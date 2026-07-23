@@ -41,10 +41,11 @@
    const BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
    const CHAT_ID = "YOUR_TELEGRAM_CHAT_ID";
 
-1.初始化觸發器
-◌ 在 GAS 編輯器上方選擇執行 setDailyTriggers 函式。
-◌ 點擊「執行」，完成時間排程預約。
-2.部署 Webhook
-◌ 點擊右上角「部署」 ➔ 「新增部署」。
-◌ 種類選擇「Web 應用程式」，存取權限設定為「所有人」。
-◌ 將取得的 Web App URL 設定給 Telegram Webhook。
+3.初始化觸發器
+   * 在 GAS 編輯器上方選擇執行 setDailyTriggers 函式。
+   * 點擊「執行」，完成時間排程預約。
+
+4.部署 Webhook
+   * 點擊右上角「部署」 ➔ 「新增部署」。
+   * 種類選擇「Web 應用程式」，存取權限設定為「所有人」。
+   * 將取得的 Web App URL 設定給 Telegram Webhook。
